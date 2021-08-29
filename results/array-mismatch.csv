@@ -1,0 +1,25 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: prefix","Param: size"
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,78386.912220,786.841894,"ops/ms",0.25,1000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,14734.117606,62.106121,"ops/ms",0.25,10000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,1358.927574,3.504968,"ops/ms",0.25,100000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,59220.869891,1705.959156,"ops/ms",0.50,1000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,8606.060013,277.204129,"ops/ms",0.50,10000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,716.740603,1.770640,"ops/ms",0.50,100000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,47737.075122,310.411574,"ops/ms",0.75,1000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,6005.535935,153.609273,"ops/ms",0.75,10000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,466.260844,3.404987,"ops/ms",0.75,100000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,39163.388967,314.900012,"ops/ms",1.00,1000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,4822.000005,30.151678,"ops/ms",1.00,10000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchIntrinsic","thrpt",1,25,338.129595,1.559731,"ops/ms",1.00,100000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,72982.255137,119.624674,"ops/ms",0.25,1000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,18007.625417,62.678157,"ops/ms",0.25,10000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,1591.499013,4.646002,"ops/ms",0.25,100000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,56511.771904,86.548870,"ops/ms",0.50,1000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,9624.558732,38.979626,"ops/ms",0.50,10000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,892.983636,3.267191,"ops/ms",0.50,100000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,44834.019878,151.781694,"ops/ms",0.75,1000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,6599.247135,23.148302,"ops/ms",0.75,10000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,577.796687,16.346260,"ops/ms",0.75,100000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,26841.308565,161.536470,"ops/ms",1.00,1000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,3542.271129,19.742429,"ops/ms",1.00,10000
+"dev.lucifer.benchmarks.ArrayMismatchBenchmark.mismatchVector","thrpt",1,25,319.893767,3.810593,"ops/ms",1.00,100000
