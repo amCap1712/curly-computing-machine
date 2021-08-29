@@ -28,11 +28,9 @@ public class BytePrefixData {
     public void init() {
         int prefixLength = (int)(prefix * size);
         byte[] commonPrefix = createByteArray(prefixLength);
-        this.data1 = createByteArray(size);
-        this.data2 = createByteArray(size);
-        for (int i = 0; i < prefixLength; ++i) {
-            data1[i] = commonPrefix[i];
-            data2[i] = commonPrefix[i];
-        }
+        data1 = createByteArray(size);
+        data2 = createByteArray(size);
+        System.arraycopy(commonPrefix, 0, data1, 0, prefixLength);
+        System.arraycopy(commonPrefix, 0, data2, 0, prefixLength);
     }
 }
