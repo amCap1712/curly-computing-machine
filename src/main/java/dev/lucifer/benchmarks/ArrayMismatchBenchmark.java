@@ -13,9 +13,8 @@ import org.openjdk.jmh.annotations.OutputTimeUnit;
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
-@OutputTimeUnit(TimeUnit.NANOSECONDS)
+@OutputTimeUnit(TimeUnit.MILLISECONDS)
 public class ArrayMismatchBenchmark {
-
 
     int scalarMismatch(byte[] data1, byte[] data2, int startIndex) {
         int length = Math.min(data1.length, data2.length);
