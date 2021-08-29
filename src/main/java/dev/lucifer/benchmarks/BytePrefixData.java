@@ -1,8 +1,12 @@
 package dev.lucifer.benchmarks;
 
-import java.util.Random;
+import org.openjdk.jmh.annotations.Level;
+import org.openjdk.jmh.annotations.Param;
+import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.Setup;
+import org.openjdk.jmh.annotations.State;
 
-import org.openjdk.jmh.annotations.*;
+import java.util.Random;
 
 @State(Scope.Thread)
 public class BytePrefixData {
@@ -13,9 +17,8 @@ public class BytePrefixData {
     @Param({"1000", "10000", "100000"})
     int size;
 
-    public byte[] data1;
-    public byte[] data2;
-
+    byte[] data1;
+    byte[] data2;
 
     public static byte[] createByteArray(int size) {
         Random rand = new Random();
@@ -26,7 +29,7 @@ public class BytePrefixData {
 
     @Setup(Level.Trial)
     public void init() {
-        int prefixLength = (int)(prefix * size);
+        int prefixLength = (int) (prefix * size);
         byte[] commonPrefix = createByteArray(prefixLength);
         data1 = createByteArray(size);
         data2 = createByteArray(size);
