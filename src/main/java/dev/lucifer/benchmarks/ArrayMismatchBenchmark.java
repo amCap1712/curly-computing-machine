@@ -28,11 +28,6 @@ public class ArrayMismatchBenchmark {
     }
 
     @Benchmark
-    public int mismatchIntrinsic(BytePrefixData data) {
-        return Arrays.mismatch(data.data1, data.data2);
-    }
-
-    @Benchmark
     public int mismatchVector(BytePrefixData data) {
         byte[] data1 = data.data1;
         byte[] data2 = data.data2;
@@ -47,6 +42,11 @@ public class ArrayMismatchBenchmark {
             }
         }
         return mismatchScalar(data1, data2, index);
+    }
+
+    @Benchmark
+    public int mismatchIntrinsic(BytePrefixData data) {
+        return Arrays.mismatch(data.data1, data.data2);
     }
 
 }
