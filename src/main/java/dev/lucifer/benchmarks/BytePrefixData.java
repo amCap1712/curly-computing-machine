@@ -11,7 +11,7 @@ import java.util.Random;
 @State(Scope.Thread)
 public class BytePrefixData {
 
-    @Param({"0.75", "1.00"})
+    @Param({"1.00", "0.75"})
     double prefix;
 
     @Param({"10000"})
