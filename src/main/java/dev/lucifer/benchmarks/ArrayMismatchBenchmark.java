@@ -28,7 +28,7 @@ public class ArrayMismatchBenchmark {
     }
 
     @Benchmark
-    int mismatchScalar(BytePrefixData data) {
+    public int mismatchScalar(BytePrefixData data) {
         return mismatchScalar(data.data1, data.data2, 0);
     }
 
