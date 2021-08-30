@@ -28,6 +28,11 @@ public class ArrayMismatchBenchmark {
     }
 
     @Benchmark
+    int mismatchScalar(BytePrefixData data) {
+        return mismatchScalar(data.data1, data.data2, 0);
+    }
+
+    @Benchmark
     public int mismatchVector(BytePrefixData data) {
         byte[] data1 = data.data1;
         byte[] data2 = data.data2;
